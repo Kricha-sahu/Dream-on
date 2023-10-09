@@ -1,0 +1,9 @@
+<div class="dream-list-container">
+    <h2>Dream List</h2>
+    <ul class="dream-list">
+        <li *ngFor="let dream of dreams" class="dream-item">
+            <h3>{{ dream.title }}</h3>
+            <p>{{ dream.description }}</p>
+        </li>
+    </ul>
+</div>

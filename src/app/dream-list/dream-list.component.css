@@ -1,0 +1,15 @@
+.dream-list-container {
+    padding: 20px;
+}
+
+.dream-list {
+    list-style: none;
+    padding: 0;
+}
+
+.dream-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f7f7f7;
+}
